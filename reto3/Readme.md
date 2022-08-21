@@ -12,7 +12,7 @@
 	- Utilizar la imagen de nginx con la version requerida
 	FROM nginx:alpine
 	
-	- Copiar el archivo index.htm de la carpeta src desde el host a la carpeta del contenedor
+	- Copiar el archivo index.html de la carpeta src desde el host a la carpeta del contenedor
 	COPY /src/index.html /usr/share/nginx/html
 ```	
 ### Paso 2: Crear un volumen 'static_content' en el CLI de Docker mediante la siguiente instruccion
